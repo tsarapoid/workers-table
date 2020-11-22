@@ -4,7 +4,7 @@ import {
   NavLink,
   BrowserRouter
 } from "react-router-dom";
-import Home from ".//Home";
+import Home from "./Home";
 import Blog from "./Blog";
 import Contact from "./Contact";
 
