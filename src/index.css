@@ -56,8 +56,8 @@ h1 {
 }
 
 .App-logo {
-	margin-left: 10vmin;
-	height: 40vmin;
+  margin-left: 10vmin;
+  height: 40vmin;
   pointer-events: none;
 }
 
@@ -71,7 +71,7 @@ h1 {
   from {
   }
   to {
-		transform: scale(1.5, 1)
+    transform: scale(1.5, 1)
   }
 }
 

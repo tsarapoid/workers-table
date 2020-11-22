@@ -5,7 +5,7 @@ import logo from './logo.svg'
 class Home extends Component {
 
 
-	render () {
+  render () {
     return (
       <div className="App-header">
 

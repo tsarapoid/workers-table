@@ -15,7 +15,7 @@ class Nav extends Component {
       <BrowserRouter>
         <div>
           <h2>Quantum Accounting</h2>
-          <ul className="header">
+            <ul className="header">
             <li><NavLink exact to="/">Ввод</NavLink> </li>
             <li><NavLink to="/Blog">Список</NavLink></li>
             <li><NavLink to="/Contact">Категории</NavLink></li>
