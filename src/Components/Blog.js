@@ -10,6 +10,8 @@ class Table extends React.Component {
 /*  				people: data.sort((a, b) => (a.family > b.family) ? 1
 				: (a.family === b.family) ? ((a.name > b.name) ? 1 : -1) : -1 ),
  */				parameter: 'family',
+
+ //				parameters: ['','',''],
 				order: {name: 1, family: 1, role: 1},
 
 //
