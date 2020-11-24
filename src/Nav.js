@@ -7,7 +7,7 @@ import {
 import Home from "./Home";
 import Blog from "./Blog";
 import Contact from "./Contact";
-
+import * as paths from '../src/router/path';
 
 
 
@@ -18,14 +18,14 @@ class Nav extends Component {
         <div>
           <h2>Quantum Accounting</h2>
             <ul className="header">
-            <li><NavLink exact to="/">Ввод</NavLink> </li>
-            <li><NavLink to="/Blog">Список</NavLink></li>
-            <li><NavLink to="/Contact">Категории</NavLink></li>
+            <li><NavLink exact to={paths.MAIN}>Ввод</NavLink> </li>
+            <li><NavLink to={paths.BLOG}>Список</NavLink></li>
+            <li><NavLink to={paths.CONTACT}>Категории</NavLink></li>
           </ul>
           <div className="content">
-            <Route exact path="/" component={Home} />
-            <Route path="/blog" component={Blog} />
-            <Route path="/contact" component={Contact} />
+            <Route exact path={paths.MAIN} component={Home} />
+            <Route path={paths.BLOG} component={Blog} />
+            <Route path={paths.CONTACT} component={Contact} />
           </div>
         </div>
       </BrowserRouter>
